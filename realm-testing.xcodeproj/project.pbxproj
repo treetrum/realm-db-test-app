@@ -7,16 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22D77A3229EB7D5200944765 /* realm_testingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D77A3129EB7D5200944765 /* realm_testingApp.swift */; };
-		22D77A3429EB7D5200944765 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D77A3329EB7D5200944765 /* ContentView.swift */; };
+		220DFA3B29EBEB22003297ED /* AddEditBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220DFA3A29EBEB22003297ED /* AddEditBook.swift */; };
+		220DFA3E29EBF013003297ED /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220DFA3D29EBF013003297ED /* BookDetailView.swift */; };
+		220DFA4229EC0DA5003297ED /* Config.sample.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 220DFA4129EC0DA5003297ED /* Config.sample.xcconfig */; };
+		220DFA4529EC0E6B003297ED /* ConfigStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220DFA4429EC0E6B003297ED /* ConfigStore.swift */; };
+		22232FA229EB7E8200B48930 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22232FA129EB7E8200B48930 /* Book.swift */; };
+		22232FA629EBCA0A00B48930 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22232FA529EBCA0A00B48930 /* RealmManager.swift */; };
+		22D77A3229EB7D5200944765 /* RealmTestingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D77A3129EB7D5200944765 /* RealmTestingApp.swift */; };
+		22D77A3429EB7D5200944765 /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D77A3329EB7D5200944765 /* BookListView.swift */; };
 		22D77A3629EB7D5300944765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D77A3529EB7D5300944765 /* Assets.xcassets */; };
 		22D77A3929EB7D5300944765 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D77A3829EB7D5300944765 /* Preview Assets.xcassets */; };
+		22D77A4129EB7E1900944765 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 22D77A4029EB7E1900944765 /* Realm */; };
+		22D77A4329EB7E1900944765 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 22D77A4229EB7E1900944765 /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		22D77A2E29EB7D5200944765 /* realm-testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "realm-testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		22D77A3129EB7D5200944765 /* realm_testingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realm_testingApp.swift; sourceTree = "<group>"; };
-		22D77A3329EB7D5200944765 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		220DFA3A29EBEB22003297ED /* AddEditBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditBook.swift; sourceTree = "<group>"; };
+		220DFA3D29EBF013003297ED /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		220DFA4029EC0D5A003297ED /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		220DFA4129EC0DA5003297ED /* Config.sample.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.sample.xcconfig; sourceTree = "<group>"; };
+		220DFA4329EC0E2A003297ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		220DFA4429EC0E6B003297ED /* ConfigStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigStore.swift; sourceTree = "<group>"; };
+		22232FA129EB7E8200B48930 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		22232FA329EB8CC200B48930 /* realm-testing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "realm-testing.entitlements"; sourceTree = "<group>"; };
+		22232FA529EBCA0A00B48930 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		22D77A2E29EB7D5200944765 /* RealmSync iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RealmSync iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D77A3129EB7D5200944765 /* RealmTestingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmTestingApp.swift; sourceTree = "<group>"; };
+		22D77A3329EB7D5200944765 /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
 		22D77A3529EB7D5300944765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22D77A3829EB7D5300944765 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -26,12 +43,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D77A4329EB7E1900944765 /* RealmSwift in Frameworks */,
+				22D77A4129EB7E1900944765 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		220DFA3929EBEB13003297ED /* AddEditBook */ = {
+			isa = PBXGroup;
+			children = (
+				220DFA3A29EBEB22003297ED /* AddEditBook.swift */,
+			);
+			path = AddEditBook;
+			sourceTree = "<group>";
+		};
+		220DFA3C29EBF008003297ED /* BookDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				220DFA3D29EBF013003297ED /* BookDetailView.swift */,
+			);
+			path = BookDetailView;
+			sourceTree = "<group>";
+		};
+		22232F9E29EB7E6500B48930 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				22232FA129EB7E8200B48930 /* Book.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		22232FA429EBC9FE00B48930 /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				22232FA529EBCA0A00B48930 /* RealmManager.swift */,
+			);
+			path = managers;
+			sourceTree = "<group>";
+		};
 		22D77A2529EB7D5200944765 = {
 			isa = PBXGroup;
 			children = (
@@ -43,7 +94,7 @@
 		22D77A2F29EB7D5200944765 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				22D77A2E29EB7D5200944765 /* realm-testing.app */,
+				22D77A2E29EB7D5200944765 /* RealmSync iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +102,19 @@
 		22D77A3029EB7D5200944765 /* realm-testing */ = {
 			isa = PBXGroup;
 			children = (
-				22D77A3129EB7D5200944765 /* realm_testingApp.swift */,
-				22D77A3329EB7D5200944765 /* ContentView.swift */,
+				220DFA4329EC0E2A003297ED /* Info.plist */,
+				220DFA3C29EBF008003297ED /* BookDetailView */,
+				220DFA3929EBEB13003297ED /* AddEditBook */,
+				22232FA429EBC9FE00B48930 /* managers */,
+				22232FA329EB8CC200B48930 /* realm-testing.entitlements */,
+				22232F9E29EB7E6500B48930 /* model */,
+				22D77A3129EB7D5200944765 /* RealmTestingApp.swift */,
+				22D77A3329EB7D5200944765 /* BookListView.swift */,
 				22D77A3529EB7D5300944765 /* Assets.xcassets */,
 				22D77A3729EB7D5300944765 /* Preview Content */,
+				220DFA4029EC0D5A003297ED /* Config.xcconfig */,
+				220DFA4129EC0DA5003297ED /* Config.sample.xcconfig */,
+				220DFA4429EC0E6B003297ED /* ConfigStore.swift */,
 			);
 			path = "realm-testing";
 			sourceTree = "<group>";
@@ -70,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		22D77A2D29EB7D5200944765 /* realm-testing */ = {
+		22D77A2D29EB7D5200944765 /* RealmSync iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22D77A3C29EB7D5300944765 /* Build configuration list for PBXNativeTarget "realm-testing" */;
+			buildConfigurationList = 22D77A3C29EB7D5300944765 /* Build configuration list for PBXNativeTarget "RealmSync iOS" */;
 			buildPhases = (
 				22D77A2A29EB7D5200944765 /* Sources */,
 				22D77A2B29EB7D5200944765 /* Frameworks */,
@@ -82,9 +142,13 @@
 			);
 			dependencies = (
 			);
-			name = "realm-testing";
+			name = "RealmSync iOS";
+			packageProductDependencies = (
+				22D77A4029EB7E1900944765 /* Realm */,
+				22D77A4229EB7E1900944765 /* RealmSwift */,
+			);
 			productName = "realm-testing";
-			productReference = 22D77A2E29EB7D5200944765 /* realm-testing.app */;
+			productReference = 22D77A2E29EB7D5200944765 /* RealmSync iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,11 +175,14 @@
 				Base,
 			);
 			mainGroup = 22D77A2529EB7D5200944765;
+			packageReferences = (
+				22D77A3F29EB7E1900944765 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 22D77A2F29EB7D5200944765 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				22D77A2D29EB7D5200944765 /* realm-testing */,
+				22D77A2D29EB7D5200944765 /* RealmSync iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +194,7 @@
 			files = (
 				22D77A3929EB7D5300944765 /* Preview Assets.xcassets in Resources */,
 				22D77A3629EB7D5300944765 /* Assets.xcassets in Resources */,
+				220DFA4229EC0DA5003297ED /* Config.sample.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +205,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22D77A3429EB7D5200944765 /* ContentView.swift in Sources */,
-				22D77A3229EB7D5200944765 /* realm_testingApp.swift in Sources */,
+				22D77A3429EB7D5200944765 /* BookListView.swift in Sources */,
+				22232FA629EBCA0A00B48930 /* RealmManager.swift in Sources */,
+				220DFA3B29EBEB22003297ED /* AddEditBook.swift in Sources */,
+				220DFA4529EC0E6B003297ED /* ConfigStore.swift in Sources */,
+				22D77A3229EB7D5200944765 /* RealmTestingApp.swift in Sources */,
+				220DFA3E29EBF013003297ED /* BookDetailView.swift in Sources */,
+				22232FA229EB7E8200B48930 /* Book.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +220,7 @@
 /* Begin XCBuildConfiguration section */
 		22D77A3A29EB7D5300944765 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220DFA4029EC0D5A003297ED /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -207,6 +281,7 @@
 		};
 		22D77A3B29EB7D5300944765 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220DFA4029EC0D5A003297ED /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -264,23 +339,27 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "realm-testing/realm-testing.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"realm-testing/Preview Content\"";
 				DEVELOPMENT_TEAM = N5B3FJPB8K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "realm-testing/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = RealmSync;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sjd.realm-testing";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjd.RealmTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -293,23 +372,27 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "realm-testing/realm-testing.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"realm-testing/Preview Content\"";
 				DEVELOPMENT_TEAM = N5B3FJPB8K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "realm-testing/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = RealmSync;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sjd.realm-testing";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjd.RealmTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -329,7 +412,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22D77A3C29EB7D5300944765 /* Build configuration list for PBXNativeTarget "realm-testing" */ = {
+		22D77A3C29EB7D5300944765 /* Build configuration list for PBXNativeTarget "RealmSync iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22D77A3D29EB7D5300944765 /* Debug */,
@@ -339,6 +422,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		22D77A3F29EB7E1900944765 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 10.38.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		22D77A4029EB7E1900944765 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22D77A3F29EB7E1900944765 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		22D77A4229EB7E1900944765 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22D77A3F29EB7E1900944765 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 22D77A2629EB7D5200944765 /* Project object */;
 }

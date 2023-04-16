@@ -1,0 +1,13 @@
+//
+//  Config.xcconfig
+//  realm-testing
+//
+//  Created by Samuel Davis on 16/4/2023.
+//
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+//
+// Copy this to a new config file and configure your project to use that file for debug/release
+
+REALM_APP_ID = REALM_APP_ID_GOES_HERE
+REALM_API_KEY = REALM_API_KEY_GOES_HERE
